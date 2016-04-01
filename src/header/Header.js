@@ -3,7 +3,7 @@
  * Date: 16/4/1
  */
 
-import React from 'react'
+import React, { PropTypes } from 'react'
 
 import './style.css'
 
@@ -11,11 +11,15 @@ import './style.css'
  * recruitment sidebar header
  */
 
-const Header = () => (
+const Header = ({ onClickClearAll }) => (
   <div className="header clearfix">
     <h2 className="header-title">招聘职位</h2>
-    <button className="clear-button">清空</button>
+    <button className="clear-button" onClick={onClickClearAll}>清空</button>
   </div>
 )
+
+Header.propTypes = {
+  onClickClearAll: PropTypes.func,
+}
 
 export default Header
