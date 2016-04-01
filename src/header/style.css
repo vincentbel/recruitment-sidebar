@@ -1,0 +1,20 @@
+.header {
+
+}
+
+.header-title {
+    float: left;
+    margin: 0;
+    color: #CDD2D2;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.clear-button {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+}

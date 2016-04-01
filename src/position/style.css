@@ -1,0 +1,18 @@
+.position {
+    padding: 2px 0;
+}
+
+.position-checkbox {
+    float: left;
+}
+
+.position-title {
+    float: left;
+    color: #CDD2D2;
+}
+
+.position-count {
+    float: right;
+    color: #AEB9B9;
+    padding-right: 8px;
+}

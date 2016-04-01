@@ -1,0 +1,31 @@
+.department {
+
+}
+
+.department-header {
+    padding: 18px 0 12px;
+}
+
+.department-checkbox {
+    float: left;
+}
+
+.department-title {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.department-total-count {
+    float: right;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: #516A76;
+}
+
+.position-list {
+    list-style: none;
+}

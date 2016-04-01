@@ -9,6 +9,7 @@
     "lint:fix": "./node_modules/.bin/eslint --fix -c .eslintrc src"
   },
   "dependencies": {
+    "lodash.groupby": "^4.2.1",
     "react": "^0.14.8",
     "react-dom": "^0.14.8"
   },
